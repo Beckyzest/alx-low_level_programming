@@ -1,17 +1,11 @@
 #include <stdio.h>
 /**
- *  *main-program entry point.
- *   *Return:0 no error, non zero if error
- *    */
+ *main-entry point for the program.
+ *
+ *Return:0 if no errors, return non zero if errors
+ **/
 int main(void)
 {
-		char i;
-
-			for (i = '0'; i <= '9'; i++)
-					{
-								putchar(i);
-									}
-				putchar('\n');
-					return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
-
