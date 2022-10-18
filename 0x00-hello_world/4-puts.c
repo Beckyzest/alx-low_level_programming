@@ -1,10 +1,18 @@
-#include <stdio.h>
-/**
- * main - Serves as the entry point
- * Resume: Always 0
- */
-int main(void)
-{
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+#include <stdlib.h> 
+#include <stdio.h> 
+  
+/** 
+*main - Entry point 
+*Return: Always 0 (Success) 
+*/ 
+int main(void) 
+{ 
+	int i; 
+		    
+	for (i = '0'; i <= '9'; i++) 
+	{ 
+		putchar(i); 
+	} 
+	putchar('\n'); 
+	return (0); 
 }
