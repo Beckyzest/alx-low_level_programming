@@ -1,16 +1,21 @@
+#include <stdio.h>
 
 /**
-*main - Entry point 
-Return: Always 0;
+ * main - prints the alphabet in lowercase
+ * Return: Always 0
+ */
 int main(void)
 {
-	char i;
+	char la;
 
-	for (i = 'a'; i <= 'z'; i++)	
-{
-          		if (i == 'e' || i == 'q')
-											continue;								putchar(i);
-									}
-			putchar('\n');
-			return (0);
+	for (la = 'a'; la <= 'z'; la++)
+
+	{
+		if (la != 'e' && la != 'q')
+			putchar(la);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
